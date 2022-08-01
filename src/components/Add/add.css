@@ -1,0 +1,23 @@
+.back{
+    background-color: blue;
+    color:white;
+    margin-top: 10px;
+    width: 50%;
+   
+   
+}
+.all{
+    display: flex;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+.formm{
+    display: flex;
+    justify-content: center;
+    
+}
