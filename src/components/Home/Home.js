@@ -35,6 +35,7 @@ const Home = () => {
                 <h6>Details:{userData.details}</h6>
                 <h6>Price:{userData.price}</h6>
                 <button onClick={()=>handleDelete(userData._id)}>Delete</button>
+                <Link to={`/update/${userData._id}`}><button style={{backgroundColor:'green',color:'white'}}>Update</button></Link>
             </div>)
            }
         </div>
