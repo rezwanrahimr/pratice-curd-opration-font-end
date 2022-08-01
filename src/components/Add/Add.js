@@ -35,7 +35,7 @@ const Add = () => {
            <div className='formm'> 
            <form className='form' onSubmit={handleSubmit(onSubmit)}>
                 <input {...register("Name", { required: true, maxLength: 20 })} />
-                <input {...register("details", { pattern: /^[A-Za-z]+$/i })} />
+                <input {...register("details")} />
                 <input type="number" {...register("price", { min: 18, max: 99 })} />
                 <input type="submit" />
             </form>
